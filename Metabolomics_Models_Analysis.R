@@ -1,5 +1,4 @@
 #setup
-setwd("/Users/rafael/Library/CloudStorage/OneDrive-King'sCollegeLondon/KCL/KCL-PhD/UKBB/MetabolomicBiomarkers")
 library(dplyr)
 library(readxl)
 library(survival)
