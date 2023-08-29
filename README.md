@@ -6,10 +6,10 @@ The code was run in the following order:
 1. adf
    - Reformats ICD tables
    - Searches for earliest diagnoses
-2. XXX
-3. XXX
-4. XXX
-5. XXX
+2. Earliest_date_ICD_DR.R
+3. Earliest_date_OPCS4.R
+4. Earliest_date_VI.R
+5. Endpoints.R
 6. Metabolomics_Models_Analysis.R (main analysis)
    - Reformatting, exclusion
    - Baseline characteristics
