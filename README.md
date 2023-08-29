@@ -10,7 +10,7 @@ The code was run in the following order:
 3. XXX
 4. XXX
 5. XXX
-6. Metabolomics_Models_Analysis.R
+6. Metabolomics_Models_Analysis.R (main analysis)
    - Reformatting, exclusion
    - Baseline characteristics
    - Individual metabolite associations
