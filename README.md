@@ -17,10 +17,11 @@ The code was run in the following order:
    - Calculates ultimate earliest date, time to event and disease status (Yes, No, Yes at baseline)
    - Creates file 'Time_to_follow_up.tsv'
 5. Reformatting_dataset.R
-   - Calls in different .tsv files from 'TableDownloads' folder, reformats categorical data mostly into 'TRUE' or 'FALSE'          or NA.
+   - Calls in patient information used in stratification as TSV files from 'TableDownloads' folder
+   - Reformats categorical data mostly into 'TRUE' or 'FALSE' or NA.
    - Creates disease status columns for DM, HTN and DM at baseline.
    - Merges all data to create 'Before_exclusion.tsv'.
-6. Metabolomics_Models_Analysis.R (main analysis)
+7. Metabolomics_Models_Analysis.R (main analysis)
    - Reformatting, exclusion
    - Baseline characteristics
    - Individual metabolite associations
