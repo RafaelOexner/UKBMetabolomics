@@ -18,9 +18,8 @@ The code was run in the following order:
    - Creates file 'Time_to_follow_up.tsv'
 5. Reformatting_dataset.R
    - Calls in different .tsv files from 'TableDownloads' folder, reformats categorical data mostly into 'TRUE' or 'FALSE'          or NA.
-   - Also creates disease status columns for DM, HTN and DM at baseline.
+   - Creates disease status columns for DM, HTN and DM at baseline.
    - Merges all data to create 'Before_exclusion.tsv'.
-   - Contains lots of additional information, e.g. diet
 6. Metabolomics_Models_Analysis.R (main analysis)
    - Reformatting, exclusion
    - Baseline characteristics
