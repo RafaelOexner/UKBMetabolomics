@@ -31,3 +31,10 @@ The code was run in the following order:
         - Discrimination & calibration
         - Survival stratification
         - Insights into feature utilisation
+8. Bootstrapping_RAP.R
+   - Performed on UKB RAP for computational reasons
+   - refitting of the identical models
+   - 1000-fold bootstrapping to obtain 95% CIs
+9. PCPHF_Implementation.R
+   - Calculation of PCP-HF scores using original score coefficients and interaction terms
+   - Performance assessment
